@@ -26,7 +26,7 @@ if antwoord == "a" or antwoord == "Formula Renault":
             print("Alles gaat fout voor Nate en is er helemaal klaar mee. Nate geeft op en stopt met racen voor altijd.")
             exit()
         else:
-            print("voor a of b in!")
+            print("voer a of b in!")
 
     elif antwoord1 == "b" or antwoord1 == "formula 4":
         print("Hij heeft het erg moeilijk in zijn eerste jaar en rijd niet goed maar krijgt een kans voor het jaar daarna en vind een goed momentum en wint een aantal races, \nnu krijgt die verbazingwekkend toch een contract naar formule 3!. \nMaar ook een extra contract verlening voor formule 4 op de hoop dat die zijn momentum houd.")
@@ -44,17 +44,39 @@ if antwoord == "a" or antwoord == "Formula Renault":
             antwoord4 = input("wat kies jij?")
             if antwoord4 == "a" or antwoord4 == "williams":
                 print("Nate blijft loyaal aan Mercedes en zit 2 jaar bij Williams en krijgt nu de keuze om naar Aston Martin (ander Mercedes team) te gaan. \nBlijft hij bij Williams waar doe goed presteert en de auto erg goed onder controle heb. \nOf gaat hij naar Aston Martin, \neen beter team maar heeft enorme druk aangezien hij nog nooit in die auto heeft gereden.")
-            
+                
+                print("a - Williams")
+                print("b - Aston Martin")
+                antwoord5 = input("wat kies jij?")
+                if antwoord5 == 'a' or antwoord5 == 'williams':
+                    print("Nate blijft bij Williams en gaat fantastisch, de auto is stuk sneller en hij pakt een paar overwinningen op, \ndit valt Mercedes op (top team) en wil Nate een stoel geven in Mercedes. \nDit is Nate zijn droom, en Williams zegt ook dat die zijn droom moet volgen. \nNate gaat naar Mercedes op zijn ultieme droom. Wereld kampioen!")
+                    print("Nate rijd vanaf moment 1 fantastisch en het team blijft in hem geloven. \nNate word wereldkampioen, maar hij wil meer. \nHij wil records zetten, het team geloofd in Nate en samen gaan ze het proberen. \nHet lukt Nate om elk record te verbreken samen met Mercedes, 9 wereld titels, 123 overwinningen, 150 pole positions, 200 podiums. \nNa 13 jaar in Formule 1 in Nate tevreden en gaat hij met pensioen \nmet misschien wel de records die nooit zullen veranderen.")
+                    exit()
+                if antwoord5 == "b" or antwoord5 == "aston martin":
+                    print("Nate heeft het lastig in Aston Martin en word gedropt, \nhij mag terug naar Williams als reserve driver, helaas blijft dit maar voor 2 jaar voordat Nate stopt met f1. \nHij krijgt een kans in Indycar (America).")
+                    print("Nate Gaat erg goed in Indycar en wint een paar titels, tot het helemaal fout gaat en overlijd nadat zijn auto in brand vliegt tijdens een pit probleem met de brandstof.")
+                    exit()
+                else:
+                    print("voer a of b!")
             if antwoord4 == "b" or antwoord4 == "haas":
                 print("Niet verbazend was Mercedes woest op Nate en hebben zijn contract verbroken. \nToch presteert Nate erg goed in de Haas, \nnu buiten alle verwachtingen krijgt Nate een contract van Ferrari zelf! Gaat hij naar het Top team \nof blijft hij bij Haas en hoopt dat het team beter blijft gaan en misschien samen met Haas wereld kampioen kan worden.")
+                print("a - Haas")
+                print("b - Ferrari")
+                antwoord6 = input("wat kies jij")
+                if antwoord6 == "a" or antwoord6 == "haas":
+                    print("Nate Blijft bij Haas en het team word het beste team op de grid, \nhij wint het wereldkampioenschap 3 keer met Haas en besluit te stoppen met racen na 5 jaar, \nhij heeft zijn droom gehaald.")
+                    exit()
+                if antwoord6 == "b" or antwoord6 == "Ferrari":
+                    print("Na een goed jaar met Ferrari met 2 overwinningen en 9 podiums blijft hij bij Ferrari, tot het fout gaat. Tijdens een erg natte race in Japan verliest Nate controle over zijn auto, maakt een zware crash en overlijd later in het ziekenhuis.")
+                    exit()
             else:
-                print("voor a of b in!")
+                print("voer a of b in!")
         else:
-            print("voor a of b in!")
+            print("voer a of b in!")
     else:
-        print("voor a of b in!")
+        print("voer a of b in!")
         
 elif antwoord == "b" or antwoord == "Karten":
     print("Hij blijft winnen maar word te oud en krijgt geen nieuw contract van formule Renault en geeft het uiteindelijk op.")
     exit()
-else: print("voor a of b in!")
+else: print("voer a of b in!")
